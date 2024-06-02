@@ -40,3 +40,27 @@ To install the necessary dependencies, run:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Usage
+
+To use the code in this repository, follow these steps:
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/Shaadalam9/gans-continents.git
+```
+
+2. **Prepare your data:**
+   - Place your video files in the appropriate directory.
+   - Update the annotations list in dataset.py with the metadata for your video files (video names, location labels, vehicle counts, etc.).
+
+3. **Training:**
+The training process involves:
+
+   - **Loading Data:** The DataLoader loads video frames, labels, and counts.
+   - **Initializing Models:** The Generator and Discriminator models are initialized.
+   - **Training Loop:**
+      - The generator creates video frames from noise and conditioning labels.
+      - The discriminator evaluates real and generated frames.
+      - Loss is computed, and the models are updated using backpropagation.
