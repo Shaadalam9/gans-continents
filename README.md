@@ -55,18 +55,17 @@ git clone https://github.com/Shaadalam9/gans-continents.git
    - Place your video files in the appropriate directory.
    - Update the annotations list in dataset.py with the metadata for your video files (video names, location labels, vehicle counts, etc.).
 
-3. **Training:**
+## Training
 The training process involves:
-
-   - **Loading Data:** The DataLoader loads video frames, labels, and counts.
-   - **Initializing Models:** The Generator and Discriminator models are initialized.
-   - **Training Loop:**
-      - The generator creates video frames from noise and conditioning labels.
-      - The discriminator evaluates real and generated frames.
-      - Loss is computed, and the models are updated using backpropagation.
+1. **Loading Data:** The DataLoader loads video frames, labels, and counts.
+2. **Initializing Models:** The Generator and Discriminator models are initialized.
+3. **Training Loop:**
+   - The generator creates video frames from noise and conditioning labels.
+   - The discriminator evaluates real and generated frames.
+   - Loss is computed, and the models are updated using backpropagation.
     
-4. **Contributing:**
+## Contributing
 Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
 
-5. **License:**
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
