@@ -64,3 +64,9 @@ The training process involves:
       - The generator creates video frames from noise and conditioning labels.
       - The discriminator evaluates real and generated frames.
       - Loss is computed, and the models are updated using backpropagation.
+    
+4. **Contributing**
+Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
+
+5. **License**
+This project is licensed under the MIT License. See the LICENSE file for details.
